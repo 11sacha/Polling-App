@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    transition-duration: 300ms;
+}
+ 
+body {
+    display: felx;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: #0f172a;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100vw;
+    max-width: 100%;
+}
+
+form h1 {
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: hsla(180, 100%, 80%);
+    text-shadow: 0 0 8px skyblue;
+    text-align: center;
+    user-select: none;
+    margin: 32px 0; 
+}
+
+form h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+form > input,
+form label,
+form label input {
+    width: 60%;
+    background: transparent;
+    outline: none;
+    color: white;
+    padding: 6px 4px;
+    border: none;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+form div div {
+    color: aqua;
+    cursor: pointer;
+    width: fit-content;
+    text-shadow: 0 0 8px skyblue;
+    
+}
+
+form div div:hover {
+    transform: scale(1.25);
+} 
+
+form div input {
+    width: 25%;
+    background: cyan;
+    box-shadow: 0 0 8px skyblue;
+    text-shadow: 0 0 8px skyblue;
+    color: black;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 18px auto;
+}
+
+form div input:hover {
+    background: transparent;
+    color: cyan;
+    border: 2px solid cyan;
+}
+
+#question {
+    border: 1px solid transparent;
+    border-bottom: 1px solid aqua;
+    margin: 4px 0 12px 0;
+    font-size: 1.2rem;
+    padding: 14px 12px;
+}
+
+#questiom:focus {
+    border: 1px solid aqua;
+}
+
+#question:hover {
+    opacity: 0.8;
+}
+
+.options {
+    position: relative;
+    padding-left: 20px;
+    flex: 1;
+    color: white;
+    border-bottom: 1px solid transparent;
+    padding: 6px 3px;
+}
+
+.options:hover {
+    border-bottom: 1px solid aqua;
+}
+
+form label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
