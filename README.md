@@ -2,6 +2,6 @@
 
  ### Javascript, HTML & CSS for the Front-end.
  ### Node.js & Express for the Back-end.
- ### Firebase as de database.
+ ### Firebase as the database.
 
  
